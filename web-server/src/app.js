@@ -38,14 +38,14 @@ app.get('', (req, res) => {
 
 app.get('/about', (req, res) => {
     res.render('about', {
-        title: 'About me',
+        title: 'About Me',
         name: 'Mike W'
     })
 })
 
 app.get('/help', (req, res) => {
     res.render('help', {
-        message: 'HELP, Bitch!',
+        message: 'HELP!',
         title: 'Help',
         name: 'Mike'
     })
@@ -89,15 +89,15 @@ app.get('/products', (req, res) => {
 
 app.get('/help/*', (req, res) => {
     res.render('error', {
-        title: '404 Boyz',
-        error: 'Fuck yo help'
+        title: '404',
+        error: 'No help'
     })
 })
 
 app.get('*', (req, res) => {
     res.render('error', {
         title: '404 Error',
-        error: 'No fuckin page, bitch'
+        error: 'No page'
     })
 })
 

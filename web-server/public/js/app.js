@@ -1,4 +1,4 @@
-console.log('Client, bitch!')
+console.log('Client side')
 
 
 

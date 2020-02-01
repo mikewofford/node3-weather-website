@@ -36,7 +36,10 @@ header a {
 }
 
 .ultra {
-    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
 
 .main {
